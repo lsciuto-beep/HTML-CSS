@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#titolo{
+    color: red;
+}
+.title{
+    color: green;
+}
+div{
+    color: blue !important;
+}

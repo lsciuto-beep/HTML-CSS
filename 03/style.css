@@ -1,0 +1,27 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.cards .card-yellow{
+    
+    height: 300px;
+    width: 400px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+.cards .card-black{
+    height: 200px;
+    width: 100px;
+    background-color: black;
+    border-radius: 20px;
+}
+.cards .card-blue{
+    height: 250px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 20px;
+}

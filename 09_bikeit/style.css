@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    gap: 40px;
+}
+.container1 .paragrafo1 h1{
+    font-size: 50px;
+    color: rgb(20, 20, 20);
+}
+.container1 .paragrafo1 p{
+    font-size: 24px;
+    color: gray;
+}
+.container1 .paragrafo2{
+    background-color: aqua;
+    width: 375px;
+    height: 450px;
+    border-radius: 12px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    gap: 40px;
+}
+.container2 .paragrafo3 h1{
+    font-size: 50px;
+    color: rgb(20, 20, 20);
+}
+.container2 .paragrafo3 p{
+    font-size: 24px;
+    color: rgb(49, 49, 49);
+}
+.container2 .paragrafo4{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.container2 .paragrafo4 .blocco1{
+    background-color: red;
+    border-radius: 6px;
+}
+.container2 .paragrafo4 .blocco2{
+    background-color: blue;
+    border-radius: 6px;
+}
+.container2 .paragrafo4 .blocco3{
+    background-color:green;
+    border-radius: 6px;
+}
+.container2 .paragrafo4 .blocco4{
+    background-color: blue;
+    border-radius: 6px;
+}
+.container2 .paragrafo4 .blocco5{
+    background-color: red;
+    border-radius: 6px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 50vh;
+    gap: 40px;    
+}
+.container3 h1{
+    font-size: 45px;
+} 
+.sezioni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sezioni p{
+    font-size: 18px;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 40px;
+    height: 50vh;
+    gap: 40px;   
+}
+.container4 h1{
+    font-size: 45px;
+} 
+.sezioni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     gap: 40px;
+}
+.sezioni{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sezioni p{
+    font-size: 18px;
+}
+.loghi{
+     display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 50vh;
+    gap: 40px;   
+
+}
+.logo1{
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+}
+.logo2{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+}
+.logo3{
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+}
+.logo4{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+}
+.logo5{
+    width: 100px;
+    height: 50px;
+    background-color: brown;
+}
+.recensioni{
+     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 80px 0;
+    gap: 40px;   
+   
+}
+.recensione1{
+    width: 275px;
+    height: 350px;
+    background-color: brown;
+}
+.recensione2{
+    width: 275px;
+    height: 350px;
+    background-color: black;
+}
+.recensione3{
+    width: 275px;
+    height: 350px;
+    background-color: brown;
+}
+.recensione4{
+    width: 275px;
+    height: 350px;
+    background-color: black;
+}
+.recensione5{
+    width: 275px;
+    height: 350px;
+    background-color: brown;
+}
+.recensione6{
+    width: 275px;
+    height: 350px;
+    background-color: black;
+}
+.recensione7{
+    width: 275px;
+    height: 350px;
+    background-color: brown;
+}
+.recensione8{
+    width: 275px;
+    height: 350px;
+    background-color: black;
+}
+/* Sezioni di "Come funziona" - responsive */
+@media (max-width: 1024px) {
+    .container3 .sezioni {
+        flex-direction: column; /* da riga a colonna */
+        align-items: center;
+        gap: 30px; /* spazio tra le sezioni */
+    }
+
+    .container3 .sezioni > div {
+        width: 90%; /* occupa quasi tutta la larghezza disponibile */
+    }
+
+    .container3 h1 {
+        font-size: 36px; /* riduci leggermente il titolo */
+        text-align: center;
+    }
+
+    .container3 .sezioni p, 
+    .container3 .sezioni h2 {
+        text-align: center;
+        font-size: 16px; /* testo più piccolo su mobile */
+    }
+}
+
+@media (max-width: 600px) {
+    .container3 h1 {
+        font-size: 28px;
+    }
+
+    .container3 .sezioni p, 
+    .container3 .sezioni h2 {
+        font-size: 14px;
+    }
+}

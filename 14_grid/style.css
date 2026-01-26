@@ -1,0 +1,43 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+    width: 900px;
+    height: 500px;
+}
+
+/* Il grande a sinistra */
+.son1{
+    grid-row: span 2;
+    background: brown;
+    border-radius: 16px;
+}
+
+/* Gli altri 4 in 2x2 a destra */
+.son2{
+    background: black;
+    border-radius: 16px;
+}
+
+.son3{
+    background: blue;
+    border-radius: 16px;
+}
+
+.son4{
+    background: darkgreen;
+    border-radius: 16px;
+}
+
+.son5{
+    background: orangered;
+    border-radius: 16px;
+}

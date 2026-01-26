@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center; /*Centra gli elementi orizzontalmente*/
+    align-items: center; /*Centra gli elementi verticalmente*/
+    gap: 48px;
+    height: 100vh;
+}
+.shape{
+    width: 128px;
+    height: 128px;
+}
+.color1{
+    background-color: blue;
+}
+.color2{
+    background-color: darkgray;
+}
+
+@media(min-width: 768px){
+    .color1{
+        background-color: aqua;
+    }
+    .color2{
+        background-color: brown;
+    }
+}
+@media(min-width: 1024px){
+    .color1{
+        background-color: red;
+    }
+    .color2{
+        background-color: green;
+    }
+}
