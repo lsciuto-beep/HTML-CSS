@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .card{
+    background-color: rgb(37, 70, 107);
+    height: 400px;
+    width: 270px;
+}
+.main .card .content{
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: gray;
+    height: 200px;
+    width: 248px;
+}
+.main .card .text{
+    margin-left: 10px;
+    color: white;
+}
+.cambio{
+    font-weight: 600;
+    background-color: white;
+    margin-top: 170px;
+}
+.promo{
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    margin-top: 170px;
+}
+.pulsante_alto{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+}

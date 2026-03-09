@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Javascript</h1>
+    <button id="cambia">Cambia colore</button>
+    <div class="box">
+        <p>scritte...</p>
+    </div>
+    
+    <script>
+        const bottone = document.getElementById("cambia");
+        const box = document.querySelector(".box");
+
+        bottone.addEventListener("click", function() {
+        box.style.backgroundColor = "yellow";
+    });
+</script>
+</body>
+</html>

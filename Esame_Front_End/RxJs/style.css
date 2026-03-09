@@ -1,0 +1,116 @@
+body{
+    background-color: lightgrey;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.box1{
+    position: relative;
+    padding-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 120px;
+}
+.img1 {
+    width: 100px;
+    height: 100px;
+    background-color: #272838;
+    border-radius: 50%;
+}
+.box2{
+    position: relative;
+    padding-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 120px;
+}
+.img2 {
+    width: 100px;
+    height: 100px;
+    background-color: #5d536b;
+    border-radius: 50%;
+}
+.box3{
+    position: relative;
+    padding-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 120px;
+}
+.img3 {
+    width: 100px;
+    height: 100px;
+    background-color: #7d6b91;
+    border-radius: 50%;
+}
+.box4{
+    position: relative;
+    padding-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 120px;
+}
+.img4 {
+    width: 100px;
+    height: 100px;
+    background-color: #989fce;
+    border-radius: 50%;
+}
+.box5{
+    position: relative;
+    padding-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 120px;
+}
+.img5 {
+    width: 100px;
+    height: 100px;
+    background-color: #347fc4;
+    border-radius: 50%;
+}
+.box6{
+    position: relative;
+    padding-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 120px;
+}
+.img6 {
+    width: 100px;
+    height: 100px;
+    background-color: #989fce;
+    border-radius: 50%;
+}
+.box7{
+    position: relative;
+    padding-left: 20px;
+    background-color: white;
+    height: 200px;
+    width: 120px;
+}
+.img7 {
+    width: 100px;
+    height: 100px;
+    background-color: #7d6b91;
+    border-radius: 50%;
+}
+@media (max-width: 900px){
+    .box1,.box2,.box3,.box4,.box5,.box6,.box7{
+        width: 45%;
+    }
+}
+@media (max-width: 500px){
+    .content{
+        flex-direction: column;
+    }
+
+    .box1,.box2,.box3,.box4,.box5,.box6,.box7{
+        width: 90%;
+        height: auto;
+    }
+}
